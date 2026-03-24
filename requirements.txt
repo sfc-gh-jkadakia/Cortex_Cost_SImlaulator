@@ -1,0 +1,18 @@
+# Cortex AI Cost Simulator - Requirements
+# ==================================
+
+# Core Streamlit
+streamlit>=1.32.0
+
+# Data handling
+pandas>=2.0.0
+
+# Visualization (Altair is bundled with Streamlit)
+altair>=5.0.0
+
+# Snowflake connectivity
+snowflake-connector-python>=3.6.0
+snowflake-snowpark-python>=1.11.0
+
+# Optional: For deploying to Snowflake (Streamlit in Snowflake)
+# snowflake-ml-python>=1.2.0
